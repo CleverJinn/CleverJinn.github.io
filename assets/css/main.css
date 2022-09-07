@@ -45,6 +45,9 @@ div#skillsLeftLocation {
 div#skillsRightdesc {
     padding-right: 10%;
 }
+div#skillsLeftdesc{
+	width: 50%;
+}
 #DataSkillsHeading{
 	padding-top: 10%;
 }
@@ -52,6 +55,17 @@ div#skillsRightdesc {
 	-webkit-column-count: 3;
     -moz-column-count: 3;
     column-count: 4;
+}
+
+.projectimage-container {
+	display: block;
+	float: right;
+}
+.projectimage{
+	max-width: 55%;
+    float: right;
+    margin-right: 10%;
+    margin-top: 18%;
 }
 
 html, body, div, span, applet, object,
