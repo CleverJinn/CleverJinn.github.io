@@ -12,29 +12,42 @@ div#CVbtn {
 }
 
 .skills-container {
-    display: grid !important;
+    /*display: grid !important;
 	padding-bottom: 30% !important;
+	margin-bottom: 10%;*/
+	display: flex;
+	box-sizing: border-box;
 }
 .skills-container2 {
     display: grid !important;
 	padding-bottom: 7% !important;
+	margin-bottom: 10%;
 }
 
+#ProjectContainer {
+	
+   
+}
 #skillsLeft {
-	left: 25%;
+	/*left: 25%;*/
+	width: 25%;
+  	float: left;
    
 }
 #skillsRight {
-    position: absolute;
-	left: 30%;
+   /* position: absolute;
+	left: 30%;*/
+	margin-left: 10%;
+	width: 75%;
+	float: left;
 }
-div#skillsLeftLocation {
+/*div#skillsLeftLocation {
     width: 28%;
-}
+}*/
 div#skillsLeftTitle {
     font-size: 16pt;
     font-weight: bold;
-	width: 25%;
+	/*width: 25%;*/
 }
 div#skillsLeftCompany {
     font-size: 13pt;
@@ -46,7 +59,7 @@ div#skillsRightdesc {
     padding-right: 10%;
 }
 div#skillsLeftdesc{
-	width: 50%;
+	width: 75%;
 }
 #DataSkillsHeading{
 	padding-top: 10%;
@@ -54,18 +67,19 @@ div#skillsLeftdesc{
 .skill-lists{
 	-webkit-column-count: 3;
     -moz-column-count: 3;
-    column-count: 4;
+    column-count: 3;
+	padding: 1%;
 }
 
 .projectimage-container {
-	display: block;
-	float: right;
+	/*display: block;*/
+	/*float: right;*/
 }
 .projectimage{
-	max-width: 55%;
-    float: right;
-    margin-right: 10%;
-    margin-top: 18%;
+	max-width: 70%;
+   /* float: right;
+    margin-right: 10%;*/
+    margin-top: 5%;
 }
 
 html, body, div, span, applet, object,
@@ -1618,9 +1632,9 @@ input, select, textarea {
 
 		.image.fit {
 			display: block;
-			width: 40%;
+			width: 55%;
 			float: right;
-    		margin-right: 33%;
+    		margin-right: 21%;
 		}
 
 		.image.featured {
